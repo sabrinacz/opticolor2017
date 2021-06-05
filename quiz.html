@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Opticolor | Test</title> 
+	<meta charset="utf-8">
+	<link href="estilo.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:400,500,600,700|Roboto+Condensed" rel="stylesheet">
+	<link rel="icon" href="imagenes/favicon.png">
+
+</head>
+
+
+<body> 
+
+<div id="contenedor">
+
+	<div id="header">		
+		<img src="imagenes/logo.png" alt="Logo" title="Logo">
+		<ul class="nav">		
+			<li class="navlink"><a class="first after" href="index.html">inicio</a></li>
+			<li class="navlink"><a class="first after" href="colecciones.html">colecciones</a></li>
+			<li class="navlink"><a class="first after" href="tecnologia.html">tecnología</a></li>
+			<li class="navlink"><a class="first after" href="test.html">test</a></li>
+			<li class="navlink"><a class="first after" href="contacto.html">contacto</a></li>
+		</ul>
+	</div>
+
+	<div id="quiz">
+
+		<h2>¿CUÁL ES TU COLOR HOY?</h2>
+		<p class="detallequiz">Completá el test para saber tu color de ojos ideal</p>
+
+		<form name="quiz" action="javascript:check();" class="quizform">
+		
+			<h3>Si estás mirando algo, ¿qué es?</h3>
+
+			<div class="quizsection">
+				
+				<div class="options">
+					 
+						<label><input name="q1" value="value1" id="value1" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA1.png" alt="Ciencia ficción" title="Ciencia ficción">Ciencia ficción
+							</div>
+						</label>
+				 
+						<label><input name="q1" value="value2" id="value2" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA2.png" alt="Reality Show" title="Reality Show">Reality Show
+							</div>
+						</label>
+				 
+						<label><input name="q1" value="value3" id="value3" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA3.png" alt="Serie de TV" title="Serie de TV">Serie de TV
+							</div>
+						</label>
+				 
+						<label><input name="q1" value="value4" id="value4" type="radio" /> 
+							<div class="answerquiz">
+								<img src="imagenes/test/testiconA4.png" alt="Desfile de modas" title="Desfile de modas">Desfile de modas
+							</div>
+						</label>
+				 
+						<label><input name="q1" value="value5" id="value5" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA5.png" alt="Documentales" title="Documentales">Documentales
+							</div>
+						</label>
+				 
+						<label><input name="q1" value="value6" id="value6" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA6.png" alt="Dibujos animados" title="Dibujos animados">Dibujos animados
+							</div>
+						</label>
+
+						<label><input name="q1" value="value7" id="value7" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA7.png" alt="Películas viejas" title="Películas viejas">Películas viejas
+							</div>
+						</label>
+
+						<label><input name="q1" value="value8" id="value8" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA8.png" alt="Deportes extremos" title="Deportes extremos">Deportes extremos
+							</div>
+						</label>
+
+						<label><input name="q1" value="value9" id="value9" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconA9.png" alt="Películas románticas" title="Películas románticas">Películas románticas
+							</div>
+						</label>
+
+				</div>
+			 
+			</div>
+			 
+			<h3>¿Cuál es tu empleo ideal?</h3>
+
+			<div class="quizsection">
+
+				<div class="options">
+				
+						<label><input name="q2" value="value1" id="value1" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB1.png" alt="Persona de negocios" title="Persona de negocios">Persona de negocios
+							</div>
+						</label>
+				 
+						<label><input name="q2" value="value2" id="value2" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB2.png" alt="Influencer social" title="Influencer social">Influencer social
+							</div>
+						</label>
+				 
+						<label><input name="q2" value="value3" id="value3" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB3.png" alt="Asistente social" title="Asistente social">Asistente social
+							</div>
+						</label>
+				 
+						<label><input name="q2" value="value4" id="value4" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB4.png" alt="Diseñador" title="Diseñador">Diseñador
+							</div>
+						</label>
+				 
+						<label><input name="q2" value="value5" id="value5" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB5.png" alt="Ambientalista" title="Ambientalista">Ambientalista
+							</div>
+						</label>
+				 
+						<label><input name="q2" value="value6" id="value6" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB6.png" alt="Actor" titleActor">Actor
+							</div>
+						</label>
+
+						<label><input name="q2" value="value7" id="value7" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB7.png" alt="Artista" title">Artista
+							</div>
+						</label>
+
+						<label><input name="q2" value="value8" id="value8" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB8.png" alt="Doble de riesgo" title="Doble de riesgo">Doble de riesgo
+							</div>
+						</label>
+
+						<label><input name="q2" value="value9" id="value9" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconB9.png" alt="Wedding planner" title="Wedding planner">Wedding planner
+							</div>
+						</label>
+
+				</div>
+
+			</div>
+
+			<h3>¿Dónde te encontrás un sábado a la noche?</h3>
+
+			<div class="quizsection">
+
+				<div class="options">
+					
+						<label><input name="q3" value="value1" id="value1" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC1.png" alt="Trabajando" title="Trabajando">Trabajando
+							</div>
+						</label>
+				 
+						<label><input name="q3" value="value2" id="value2" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC2.png" alt="Saliendo a bailar" title="Saliendo a bailar">Saliendo a bailar
+							</div>
+						</label>
+				 
+						<label><input name="q3" value="value3" id="value3" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC3.png" alt="Con mi familia" title="Con a mi familia">Con mi familia
+							</div>
+						</label>
+				 
+						<label><input name="q3" value="value4" id="value4" type="radio" /> 
+							<div class="answerquiz">
+								<img src="imagenes/test/testiconC4.png" alt="En un restaurant" title="En un restaurant">En un restaurant
+							</div>
+						</label>
+				 
+						<label><input name="q3" value="value5" id="value5" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC5.png" alt="En una fogata" title="En una fogata">En una fogata
+							</div>
+						</label>
+				 
+						<label><input name="q3" value="value6" id="value6" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC6.png" alt="Con amigos" title="Con amigos">Con amigos
+							</div>
+						</label>
+
+						<label><input name="q3" value="value7" id="value7" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC7.png" alt="Tocando música" title="Tocando música">Tocando música
+							</div>
+						</label>
+
+						<label><input name="q3" value="value8" id="value8" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC8.png" alt="Haciendo ejercicio" title="Haciendo ejercicio">Haciendo ejercicio
+							</div>
+						</label>
+
+						<label><input name="q3" value="value9" id="value9" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconC9.png" alt="Con mi pareja" title="Con mi pareja">Con mi pareja
+							</div>
+						</label>
+
+				</div>
+			 
+			</div>
+
+			<h3>Si ganaras la lotería, ¿en qué lo gastarías?</h3>
+
+			<div class="quizsection">
+
+				<div class="options">
+					
+						<label><input name="q4" value="value1" id="value1" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD1.png" alt="En educación" title=" En educación">En educación
+							</div>
+						</label>
+				 
+						<label><input name="q4" value="value2" id="value2" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD2.png" alt="Con mis amigos" title="Con mis amigos">Con mis amigos
+							</div>
+						</label>
+				 
+						<label><input name="q4" value="value3" id="value3" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD3.png" alt="Lo donaría a caridad" title="Lo donaría a caridad">Lo donaría a caridad
+							</div>
+						</label>
+				 
+						<label><input name="q4" value="value4" id="value4" type="radio" /> 
+							<div class="answerquiz">
+								<img src="imagenes/test/testiconD4.png" alt="Shopping" title="Shopping">Shopping
+							</div>
+						</label>
+				 
+						<label><input name="q4" value="value5" id="value5" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD5.png" alt="Viajando" title="Viajando">Viajando
+							</div>
+						</label>
+				 
+						<label><input name="q4" value="value6" id="value6" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD6.png" alt="Lo ahorraría" title="Lo ahorraría">Lo ahorraría
+							</div>
+						</label>
+
+						<label><input name="q4" value="value7" id="value7" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD7.png" alt="Álbumes" title="Álbumes">Álbumes
+							</div>
+						</label>
+
+						<label><input name="q4" value="value8" id="value8" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD8.png" alt="En el casino" title="En el casino">En el casino
+							</div>
+						</label>
+
+						<label><input name="q4" value="value9" id="value9" type="radio" /> 
+							<div class="answerquiz">
+							<img src="imagenes/test/testiconD9.png" alt="En mi boda ideal" title="En mi boda ideal">En mi boda ideal
+							</div>
+						</label>
+
+				</div>
+				 
+			</div>
+
+			<h3>¿Qué es lo que más te importa?</h3>
+
+			<div class="quizsection">
+
+				<div class="options">
+						
+							<label><input name="q5" value="value1" id="value1" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE1.png" alt="Inteligencia" title=" Inteligencia">Inteligencia
+								</div>
+							</label>
+					 
+							<label><input name="q5" value="value2" id="value2" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE2.png" alt="Ser sociable" title="Ser sociable">Ser sociable
+								</div>
+							</label>
+					 
+							<label><input name="q5" value="value3" id="value3" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE3.png" alt="Ser filántropo" title="Ser filántropo">Ser filántropo
+								</div>
+							</label>
+					 
+							<label><input name="q5" value="value4" id="value4" type="radio" /> 
+								<div class="answerquiz">
+									<img src="imagenes/test/testiconE4.png" alt="La fama" title="La fama">La fama
+								</div>
+							</label>
+					 
+							<label><input name="q5" value="value5" id="value5" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE5.png" alt="La naturaleza" title="La naturaleza">La naturaleza
+								</div>
+							</label>
+					 
+							<label><input name="q5" value="value6" id="value6" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE6.png" alt="La felicidad" title="La felicidad">La felicidad
+								</div>
+							</label>
+
+							<label><input name="q5" value="value7" id="value7" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE7.png" alt="Ser original" title="Ser original">Ser original
+								</div>
+							</label>
+
+							<label><input name="q5" value="value8" id="value8" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconE8.png" alt="Sentir adrenalina" title="Sentir adrenalina">Sentir adrenalina
+								</div>
+							</label>
+
+							<label><input name="q5" value="value9" id="value9" type="radio" /> 
+								<div class="answerquiz">
+								<img src="imagenes/test/testiconD9.png" alt="El amor" title="El amor">El amor
+								</div>
+							</label>
+
+				</div>
+
+			</div>
+
+			<div id="submittest"><input value="VER MI RESULTADO" type="submit" /></div>
+
+		</form>
+	
+	</div>
+
+
+	<footer>
+		<div id="contacto">			
+			<div class="info">
+				<img src="imagenes/iconos/icono5.png" alt="Teléfono" title="Teléfono"">
+				<div class="dato">TELÉFONO</div>
+				<div class="dato2">0800-666-6784</div>
+			</div>		
+			<div class="info">
+				<img src="imagenes/iconos/icono6.png" alt="E-mail" title="E-mail">
+				<div class="dato">E-MAIL</div>
+				<div class="dato2">info@opticolor.com</div>
+			</div>		
+			<div class="info">
+				<img src="imagenes/iconos/icono7.png" alt="Sucursal" title="Sucursal">
+				<div class="dato">SUCURSAL</div>
+				<div class="dato2">Lima 775, CABA</div>
+			</div>
+		</div>
+		<ul id="links">
+			<li><a href="index.html">INICIO</a></li>			
+			<li><a href="colecciones.html">COLECCIONES</a></li>
+			<li><a href="tecnologia.html">TECNOLOGÍA</a></li>
+			<li><a href="test.html">TEST</a></li>			
+			<li><a href="contacto.html">CONTACTO</a></li>
+		</ul>
+	</footer>
+
+
+</div>
+
+<script type="text/javascript">// <![CDATA[
+
+   var result;
+   
+   function check()
+
+   {
+
+      var question;
+      var value1;
+      var value2;
+      var value3;
+      var value4;
+      var value5;
+      var value6;
+      var value7;
+      var value8;
+      var value9;
+      
+      question = 1;
+      value1 = 0;
+      value2 = 0;
+      value3 = 0;
+      value4 = 0;
+      value5 = 0;
+      value6 = 0;
+      value7 = 0;
+      value8 = 0;
+      value9 = 0;
+      
+      result = "";
+
+      var choice;
+      
+      for (question = 1; question <= 5; question++) {
+      
+         var q = document.forms['quiz'].elements['q'+question];
+
+            for (var i = 0; i < q.length; i++) {
+               if (q[i].checked) {
+                  choice = q[i].value;
+               }
+            }
+
+            if (choice == "value1") {
+               value1++;
+            }
+
+            if (choice == "value2") {
+               value2++;
+            }
+
+            if (choice == "value3") {
+               value3++;
+            }
+
+            if (choice == "value4") {
+               value4++;
+            }
+
+            if (choice == "value5") {
+               value5++;
+            }
+
+            if (choice == "value6") {
+               value6++;
+            }
+
+            if (choice == "value7") {
+               value7++;
+            }
+
+            if (choice == "value8") {
+               value8++;
+            }
+
+            if (choice == "value9") {
+               value9++;
+            }
+
+         }
+
+      if (value1 >= value2 && value1 >= value3 && value1 >= value4 && value1 >= value5 && value1 >= value6 && value1 >= value7 && value1 >= value8 && value1 >= value9 && value1 > 0) {
+
+         // value1 is the highest
+         result = "colorgris";
+
+      }
+
+      else if (value2 > value1 && value2 >= value3 && value2 >= value4 && value2 >= value5 && value2 >= value6 && value2 >= value7 && value2 >= value8 && value2 >= value9 && value2  > 0) {
+
+         // value2 is the highest
+         result = "colorvioleta";
+
+      }
+
+      else if (value3 > value1 && value3 > value2 && value3 >= value4 && value3 >= value5 && value3 >= value6 && value3 >= value7 && value3 >= value8 && value3 >= value9 && value3 > 0) {
+
+         // value3 is the highest
+         result = "colormarron";
+
+      }
+
+      else if (value4 > value1 && value4 > value2 && value4 > value3 && value4 >= value5 && value4 >= value6 && value4 >= value7 && value4 >= value8 && value4 >= value9 && value4 > 0) {
+
+         // value4 is the highest
+         result = "colorazul"; 
+
+      }
+
+      else if (value5 > value1 && value5 > value2 && value5 > value3 && value5 > value4 && value5 >= value6 && value5 >= value7 && value5 >= value8 && value5 >= value9 && value5 > 0) {
+
+         // value5 is the highest
+         result = "colorverde";
+
+      }
+
+      else if (value6 > value1 && value6 > value2 && value6 > value3 && value6 > value4 && value6 > value5 && value6 >= value7 && value6 >= value8 && value6 >= value9 && value6 > 0) {
+
+         // value6 is the highest
+         result = "colorambar";
+
+      }
+
+      else if (value7 > value1 && value7 > value2 && value7 > value3 && value7 > value4 && value7 > value5 && value7 >= value6 && value7 >= value8 && value7 >= value9 && value7 > 0) {
+
+         // value6 is the highest
+         result = "colormiel";
+
+      }
+ 
+      else if (value8 > value1 && value8 > value2 && value8 > value3 && value8 > value4 && value8 > value5 && value8 >= value6 && value8 >= value7 && value8 >= value9 && value8 > 0) {
+
+         // value6 is the highest
+         result = "colorrojo";
+
+      }
+
+      else if (value9 > value1 && value9 > value2 && value9 > value3 && value9 > value4 && value9 > value5 && value9 >= value6 && value9 >= value7 && value9 >= value8 && value9 > 0) {
+
+         // value6 is the highest
+         result = "colorrosa";
+
+      }
+
+      else {
+         result = "404";
+      }
+
+      window.location = result + '.html';
+
+   }
+
+// ]]></script>
+
+
+
+</body>
+</html>
